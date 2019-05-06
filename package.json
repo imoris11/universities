@@ -1,0 +1,23 @@
+{
+  "name": "universitiesapi",
+  "version": "1.0.0",
+  "description": "An API to list all universities in Nigeria by state and type",
+  "main": "app.js",
+  "repository": "https://github.com/imoris11/universities",
+  "author": "Richard Igbiriki",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "gulp": "^4.0.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "mongoose": "^5.5.5",
+    "should": "^13.2.3",
+    "sinon": "^7.3.2"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^4.0.2"
+  }
+}
